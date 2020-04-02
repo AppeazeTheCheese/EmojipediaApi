@@ -1,6 +1,11 @@
 # EmojipediaApi
 Unofficial Emojipedia.org API for .NET written in C#.
 
+Dependencies:
+<ul>
+  <li><a href="https://html-agility-pack.net/">HTML Agility Pack</a></li>
+</ul>
+
 Currently retrieves:
 <ul>
   <li>Emoji (as string)</li>
