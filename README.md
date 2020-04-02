@@ -1,5 +1,5 @@
 # EmojipediaApi
-Unofficial Emojipedia API for written in C#.
+Unofficial Emojipedia.org API for .NET written in C#.
 
 Currently retrieves:
 <ul>
