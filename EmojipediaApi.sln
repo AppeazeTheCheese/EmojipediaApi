@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmojipediaApi", "EmojipediaApi\EmojipediaApi.csproj", "{F1EDBF03-9D20-4CA7-B5DD-54C6BAD218DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{447743E0-C565-409F-B36D-5D45185CB352}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F1EDBF03-9D20-4CA7-B5DD-54C6BAD218DD} = {F1EDBF03-9D20-4CA7-B5DD-54C6BAD218DD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1EDBF03-9D20-4CA7-B5DD-54C6BAD218DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EDBF03-9D20-4CA7-B5DD-54C6BAD218DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EDBF03-9D20-4CA7-B5DD-54C6BAD218DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EDBF03-9D20-4CA7-B5DD-54C6BAD218DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447743E0-C565-409F-B36D-5D45185CB352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447743E0-C565-409F-B36D-5D45185CB352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447743E0-C565-409F-B36D-5D45185CB352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447743E0-C565-409F-B36D-5D45185CB352}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CAF0A92-AD3D-4EC8-998F-35AA748F67E3}
+	EndGlobalSection
+EndGlobal
