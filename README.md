@@ -1,2 +1,2 @@
 # EmojipediaApi
-Unofficial Emojipedia.com API
+Unofficial Emojipedia.org API
