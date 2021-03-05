@@ -68,7 +68,7 @@ namespace EmojipediaApi
 
             if (resp == null)
             {
-                throw new TimeoutException("The EmojiPedia server timed out.");
+                throw new TimeoutException("The Emojipedia server timed out.");
             }
             var url = resp.RequestMessage.RequestUri;
             return new EmojiInfo(url);
